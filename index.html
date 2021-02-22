@@ -425,21 +425,44 @@
             </button>
 
              <!--Modal form-->
-            <form class="contact-form" name="Оставьте свои данные, мы вам перезвоним" autocomplete="on" novalidate>
+            <form class="contact-form" name="contact-form" autocomplete="on" novalidate>
                 <b class="contact-form-title">Оставьте свои данные, мы вам перезвоним</b>
-                   <div class="form-group"> 
-                        <input type="text" name="name" id="name" class="form-input" />
-                        <label for="name" class="form-label">Имя</label>
-                        <svg width="12" height="12" class="form-icon">
-                            <use href="./img/sprite.svg#icon-person"></use>
-                        </svg>
-                   </div>     
-                     
-                <div class="contact-form-btn-wrapper">
-                    <button class="contact-form-submit" type="submit">
-                        Отправить
-                    </button>
+                <!--Name form-->
+                <div class="form-group"> 
+                    <input type="text" name="name" id="name" class="form-input" />
+                    <label for="name" class="form-label">Имя</label>
+                    <svg width="12" height="12" class="form-icon">
+                        <use href="./img/sprite.svg#icon-person"></use>
+                    </svg>
+                </div> 
+                <!--Tel form-->
+                <div class="form-group">
+                    <input type="tel" name="tel" id="tel" class="form-input" />
+                    <label for="tel" class="form-label">Телефон</label>
+                    <svg width="13" height="13" class="form-icon">
+                        <use href="./img/sprite.svg#icon-phone"></use>
+                    </svg>
+                </div>   
+                <!--Mail form-->
+                <div class="form-group">
+                    <input type="email" name="email" id="email-data" class="form-input" />
+                    <label for="email-data" class="form-label">Почта</label>
+                    <svg width="15" height="12" class="form-icon">
+                        <use href="./img/sprite.svg#icon-email"></use>
+                    </svg>
                 </div>
+                <!--Comment form-->
+                <div class="form-comment">
+                    <label for="comment" class="comment-label">Комментарий</label>
+                    <textarea name="comment" id="comment" placeholder="Введите текст" class="comment-place"></textarea>
+                 </div>
+                <!--Checkbox form-->
+                <div class="form-checkbox">
+                    <input type="checkbox" name="agreement" id="agreement" class="input-checkbox" />
+                    <label for="agreement" class="label-checkbox">Соглашаюсь с рассылкой и принимаю <a href class="link-agreement"> Условия договора </a> </label>
+                </div>
+                <!--Button form-->    
+                <button class="contact-form-btn" type="submit">Отправить</button>
             </form>
         </div>
     </div>            
