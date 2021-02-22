@@ -426,28 +426,15 @@
 
              <!--Modal form-->
             <form class="contact-form" name="Оставьте свои данные, мы вам перезвоним" autocomplete="on" novalidate>
-                <p class="contact-fofm-title">Оставьте свои данные, мы вам перезвоним</p>
-
-                <label>
-                    Имя
-                    <input class="contact-form-input" type="name*" required />
-                </label>
-
-                <label>
-                    Почта
-                    <input class="contact-form-input" type="email*" required />
-                </label>
-
-                <label>
-                    Пароль
-                    <input class="contact-form-input" type="password*" required />
-                </label>
-
-                <label>
-                    Комментарий
-                    <input class="contact-form-input-comment" type="comment" name="comment" placeholder="Введите текст" />
-                </label>
-
+                <b class="contact-form-title">Оставьте свои данные, мы вам перезвоним</b>
+                   <div class="form-group"> 
+                        <input type="text" name="name" id="name" class="form-input" />
+                        <label for="name" class="form-label">Имя</label>
+                        <svg width="12" height="12" class="form-icon">
+                            <use href="./img/sprite.svg#icon-person"></use>
+                        </svg>
+                   </div>     
+                     
                 <div class="contact-form-btn-wrapper">
                     <button class="contact-form-submit" type="submit">
                         Отправить

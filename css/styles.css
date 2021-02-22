@@ -939,11 +939,6 @@ img {
   /*transition-duration:;*/
   transition-timing-function: var(--time);
 }
-/*
-.modal-close:hover,
-.modal-close:focus {
-}
-*/
 
 /*=====Contact-form=====*/
 
